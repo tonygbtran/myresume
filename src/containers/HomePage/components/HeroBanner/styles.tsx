@@ -28,14 +28,14 @@ background: #141E30;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
-    height: calc(${props => props.height}px - 10rem);
+    height: calc(${props => props.height}px - 5rem);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     transition: all 0.3s;
 `
 
 export const HeroContainer = styled.div`
     font-family: 'Montserrat';
-    top: 50%;
+    top: calc(50% - 10rem);
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
