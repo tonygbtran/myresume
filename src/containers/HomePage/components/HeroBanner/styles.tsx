@@ -25,7 +25,7 @@ export const Bounce = styled.span`
 
 export const HeroWrapper = styled.div<IHeroWrapper>`
     position: relative;
-    height: calc(${props => props.height}px - 5rem);
+    height: calc(${props => props.height}px);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     transition: all 0.3s;
     min-height: 50rem;
