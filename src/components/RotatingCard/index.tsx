@@ -1,4 +1,4 @@
-﻿import * as React from 'react';
+import * as React from 'react';
 import { useState } from 'react';
 import { Card, FrontSide, BackSide, FrontSideStatic} from './styles';
 
@@ -17,7 +17,6 @@ const RotatingCard = ({ frontSide, backSide, hasBackSide, active}: IRotatingCard
         if (!active) {
             setIsFlipped(!isFlipped);
         }
-        console.log(isFlipped);
     }
 
     if (hasBackSide) {

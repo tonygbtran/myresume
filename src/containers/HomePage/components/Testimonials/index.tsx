@@ -91,7 +91,7 @@ const Testimonials = () => {
             );
 
             return(
-                <BasicCol xs={12} sm={12} md={12} lg={4}>
+                <BasicCol xs={12} sm={12} md={12} lg={4} key={item.name}>
                     <div style={{width: '100%'}}>
                         <RotatingCard
                             frontSide={frontSide}

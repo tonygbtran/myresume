@@ -86,9 +86,9 @@ const buildExpList = (data: IExpData[]) => {
                         </Heading>
                         <Body>
                             <BasicGrid fluid>
-                                {item.responsibilities.map(item => {
+                                {item.responsibilities.map((item, index) => {
                                     return(
-                                        <BulletRow>
+                                        <BulletRow key={`${index}-item`}>
                                             <BasicCol xs={2} sm={1} md={1} lg={1}>
                                                 <Bullet className="fas fa-caret-right"/>    
                                             </BasicCol>

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import background from '../assets/background.jpg';
 
 interface IPageWrapper {
     navHeight: number;
