@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { globalStyles } from './../../../../styles/global-styles';
 
 export const FooterWrapper = styled.div`
-    padding: 10rem 0 20rem;
+    padding: 10rem 0 3rem;
     background: #141E30;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -32,4 +32,11 @@ export const Body = styled.div`
     @media (min-width: 96rem) {
         font-size: 0.7vw;
     }
+`
+
+export const SubTitle = styled.div`
+    padding-top: 10rem;
+    color:  ${globalStyles.core.grey};
+    font-size: 1.2rem;
+    font-family: ${globalStyles.core.secondaryFont};
 `

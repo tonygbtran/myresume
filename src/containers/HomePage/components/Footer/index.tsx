@@ -1,6 +1,6 @@
 import React from 'react';
 import { BasicGrid, BasicRow, BasicCol } from '../../../../components/BasicGrid';
-import {FooterWrapper, Heading, Body} from './styles';
+import {FooterWrapper, Heading, Body, SubTitle} from './styles';
 
 const Footer = () => {
     return (
@@ -20,6 +20,14 @@ const Footer = () => {
                         <Body>
                             +61 421 690 431
                         </Body>
+                        <SubTitle>
+                            <p>
+                                Designed & Built by
+                            </p>
+                            <p>
+                                Tony Tran
+                            </p>
+                        </SubTitle>
                     </BasicCol>
                 </BasicRow>
             </BasicGrid>

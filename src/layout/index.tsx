@@ -1,4 +1,4 @@
-import React, {useState, useLayoutEffect, useEffect} from 'react';
+import React, {useState, useLayoutEffect} from 'react';
 import NavBar from '../components/NavBar/';
 import { PageWrapper, ParallaxImg} from './styles';
 
@@ -9,7 +9,6 @@ interface ILayout {
 const Layout = (props: ILayout) => {
 
     const [navHeight, setNavHeight] = useState(0);
-    const [yOff, setYOff] = useState(0);
     
     const input = React.useRef<HTMLDivElement>(null);
 
@@ -18,22 +17,10 @@ const Layout = (props: ILayout) => {
         setNavHeight(input.current.clientHeight);
     },[])
 
-    useEffect(()=> {
-        window.addEventListener('scroll', handleScroll)
-        return ()=> {
-            window.removeEventListener('scroll', handleScroll);
-        }
-    }
-    ,[]);
-
-    const handleScroll = () => {
-        setYOff(window.pageYOffset);
-    }
-
     return ( 
     <div style={{position: 'relative'}}>
       <NavBar ref={input}/>
-      <ParallaxImg yOffset={yOff}/>
+      <ParallaxImg/>
       <PageWrapper navHeight={navHeight}>
           {props.children}
       </PageWrapper>
