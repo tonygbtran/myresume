@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
-import { Card, FrontSide, BackSide, FrontSideStatic} from './styles';
+import { Card, FrontSide, BackSide, FrontSideStatic} from './styles2';
 
 interface IRotatingCard {
     frontSide: JSX.Element;
