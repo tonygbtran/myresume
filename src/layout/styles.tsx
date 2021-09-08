@@ -17,7 +17,7 @@ export const PageWrapper = styled.div`
 
 export const ParallaxImg = styled.div<IParallaxImg>`
 
-    background-image:  linear-gradient(to right bottom, rgba(126,213,111,0.4), rgba(40,180,133,0.4)), url(${background});
+    background:  url(${background});
 
     position: absolute;
     background-repeat: no-repeat;
