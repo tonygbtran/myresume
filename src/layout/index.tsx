@@ -1,6 +1,5 @@
 import React, {useState, useLayoutEffect, useEffect} from 'react';
 import NavBar from '../components/NavBar/';
-import background from '../assets/background.jpg';
 import { PageWrapper, ParallaxImg} from './styles';
 
 interface ILayout {
@@ -34,7 +33,7 @@ const Layout = (props: ILayout) => {
     return ( 
     <div style={{position: 'relative'}}>
       <NavBar ref={input}/>
-      <ParallaxImg yOffset={yOff} alt={'parallaxBackground'} src={background}/>
+      <ParallaxImg yOffset={yOff}/>
       <PageWrapper navHeight={navHeight}>
           {props.children}
       </PageWrapper>

@@ -13,8 +13,8 @@ const horizontalBounce = keyframes`
 
 const verticalBounce = keyframes`
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-    40% {transform: translateY(-2rem);} 
-    60% {transform: translateY(-1rem);} 
+    40% {transform: translateY(-1rem);} 
+    60% {transform: translateY(-0.5rem);} 
 `;
 
 export const Bounce = styled.span`
