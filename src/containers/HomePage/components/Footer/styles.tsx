@@ -35,7 +35,7 @@ export const Body = styled.div`
 `
 
 export const SubTitle = styled.div`
-    padding-top: 10rem;
+    padding-top: 17rem;
     color:  ${globalStyles.core.grey};
     font-size: 1.2rem;
     font-family: ${globalStyles.core.secondaryFont};
