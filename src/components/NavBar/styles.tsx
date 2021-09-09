@@ -15,7 +15,7 @@ export const MenuIconWrapper = styled.div`
     display: inline-block;
     padding: 0 0 0 3rem;
     line-height: 10rem;
-    color: ${globalStyles.core.white};
+    color: transparent;
 `
 
 export const MenuNavigationWrapper = styled.div`
