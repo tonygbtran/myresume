@@ -30,7 +30,7 @@ export const Body = styled.div`
     font-family: ${globalStyles.core.secondaryFont};
 
     @media (min-width: 96rem) {
-        font-size: 0.7vw;
+        font-size: 0.82vw;
     }
 `
 

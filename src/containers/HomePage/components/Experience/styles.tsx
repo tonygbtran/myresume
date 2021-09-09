@@ -41,7 +41,7 @@ export const Body = styled.div`
     font-size: 1.2rem;
 
     @media (min-width: 96rem) {
-        font-size: 0.65vw;
+        font-size: 0.73vw;
     }
 `
 
@@ -55,7 +55,7 @@ export const SubHeading = styled.div`
     font-size: 1.2rem;
 
     @media (min-width: 96rem) {
-        font-size: 0.65vw;
+        font-size: 0.73vw;
     }
 `
 
@@ -70,7 +70,7 @@ export const JobHeading = styled.div`
     font-weight: 700;
 
     @media (min-width: 96rem) {
-        font-size: 0.8vw;
+        font-size: 0.9vw;
     }
 `
 

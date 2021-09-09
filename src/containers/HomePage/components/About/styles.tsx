@@ -31,8 +31,9 @@ export const Body = styled.div`
     opacity: 0.8;
     line-height: 2rem;
     font-family: ${globalStyles.core.secondaryFont};
+
     @media (min-width: 96rem) {
-        font-size: 0.7vw;
+        font-size: 0.78vw;
         line-height: 3.2rem;
         padding: 0 2rem 0 2rem;
     }
