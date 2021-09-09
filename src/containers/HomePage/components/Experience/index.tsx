@@ -65,6 +65,20 @@ const expData = [
             'Stood up relational databases, creating and altering tables, views and stored procedures.',
             'Worked in an AGILE environment, ensuring a consistent and unimpaired product delivery.'
         ]
+    },
+    {
+        jobTitle: 'Data Analyst',
+        department: 'Contact Strategy',
+        employmentType: 'Full-time',
+        startDate: '2015-11-01',
+        endDate: '2016-10-30',
+        responsibilities: [
+            'Required to use SQL to obtain data for reporting, analytical and automation purposes.',
+            'Analysed current contact strategy approach so that I could develop innovative solutions to increase right party contact rate.',
+            'Used champion/challenger approach to test the newly developed contact strategy and to determine viability.',
+            'Worked in an AGILE framework to ensure increased communication with small but valuable deliverables on projects/initiatives.',
+            'Assisted in UAT Testing for new system integration. Extensive progression and regression testing to ensure successful connectivity between multiple host systems.'
+        ]
     }
 ];
 
