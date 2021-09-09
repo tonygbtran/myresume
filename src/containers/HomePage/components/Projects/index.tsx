@@ -2,7 +2,7 @@ import React from 'react';
 import businessRules from '../../../../assets/businessRules.png';
 import history from '../../../../assets/history.png';
 import onboarding from '../../../../assets/onboarding.png';
-import peopleManager from '../../../../assets/peopleManager.png';
+import peopleManager from '../../../../assets/peopleManager.jpg';
 import reporting from '../../../../assets/reporting.png';
 import trainingDashboard from '../../../../assets/trainingDashboard.png';
 import { BasicGrid, BasicRow, BasicCol } from '../../../../components/BasicGrid';
